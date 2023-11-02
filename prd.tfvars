@@ -1,0 +1,5 @@
+env      = "p"
+region   = "ause"
+company  = "sa"
+proj     = "shared-core"
+location = "Australia"
