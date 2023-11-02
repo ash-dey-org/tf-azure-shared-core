@@ -3,7 +3,7 @@ name: "DevApply"
 on:
   pull_request:
     branches:
-      - develop
+      - develop-ignore
     types:
       - closed
   #    - reopened

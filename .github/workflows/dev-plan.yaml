@@ -3,7 +3,7 @@ name: "DevPlan"
 on:
   pull_request:
     branches:
-      - develop
+      - develop-ignore
     types:
       - opened
       - reopened

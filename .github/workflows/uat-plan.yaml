@@ -3,7 +3,7 @@ name: "UatPlan"
 on:
   pull_request:
     branches:
-      - uat
+      - uat-ignore
     types:
       - opened
       - reopened
