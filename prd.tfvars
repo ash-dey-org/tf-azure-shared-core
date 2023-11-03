@@ -1,5 +1,5 @@
 env      = "p"
-region   = "ause"
+region   = "auea"
 company  = "sa"
 proj     = "shared-core"
 location = "Australia"
