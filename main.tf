@@ -1,5 +1,5 @@
 data "azurerm_resource_group" "rg" {
-  name = "it-${var.env}-${var.region}-${var.company}-${var.proj}-rg"
+  name = "${var.env}-${var.region}-${var.company}-${var.proj}-rg"
 }
 
 # Create Communication Services
