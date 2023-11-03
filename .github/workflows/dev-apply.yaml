@@ -39,8 +39,6 @@ jobs:
       - name: set environment variables
         run: |
           echo "TF_WORKSPACE=${{github.event.repository.name}}-$DeployEnv" >> $GITHUB_ENV
-#          echo "TF_VAR_sql_server_login=${{secrets.SQL_SERVER_LOGIN}}" >> $GITHUB_ENV
-#          echo "TF_VAR_sql_server_password=${{secrets.SQL_SERVER_PASSWORD}}" >> $GITHUB_ENV
 
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v2
