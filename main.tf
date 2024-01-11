@@ -1,3 +1,4 @@
+# use existing resource group
 data "azurerm_resource_group" "rg" {
   name = "${var.env}-${var.region}-${var.company}-rg-${var.proj}"
 }
