@@ -13,3 +13,4 @@ After email communication service resource is deployed,
 
 Once the email subdomain has been added to email coommunication services,
 link email communication services to communication services (communication services --> domain --> connect domain )
+.
